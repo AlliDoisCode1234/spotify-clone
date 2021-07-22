@@ -58,3 +58,7 @@
   transition: 100ms transform ease-in;
   transform: scale(1.08);
 }
+
+.body__green > .MuiSvgIcon-root {
+  color: #1ed15e;
+}
