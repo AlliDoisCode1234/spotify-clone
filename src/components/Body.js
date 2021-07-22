@@ -22,9 +22,9 @@ const Body = ({ spotify }) => {
             </div>
 
             <div className="body__songs">
-                <div className="body__songIcons">
-                    <PlayCircleFilledIcon />
-                    <FavoriteIcon />
+                <div className="body__icons">
+                    <PlayCircleFilledIcon className="body__shuffle" />
+                    <FavoriteIcon fontSize="large" />
                     <MoreHorizIcon />
                 </div>
                 {/* List of Songs */}
